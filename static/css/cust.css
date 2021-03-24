@@ -4,7 +4,7 @@
     }
 
 body{
-     background-color: darkgray;
+     background-color: #7a97ff;
     
 }
 .row
@@ -16,5 +16,9 @@ body{
 img{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    
+}
+btn
+{
     
 }
