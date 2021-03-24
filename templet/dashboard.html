@@ -1,0 +1,117 @@
+{% load static %}
+ 
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+       <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+          <link rel="stylesheet" href="{% static 'css/dash.css' %}">
+    <title>Hello, world!</title>
+     
+  </head>
+  <body>
+      <div class="container-fluid c2">
+       <div class="row">
+         <div class="col-lg-12">
+    
+          <div class="alert alert-warning" role="alert">
+              <center><h1> Welcome to <b><a href="#" class="alert-link">BOok BaZaR</a></b></h1> 
+              <p>Libraries will get you through times of no money better than money will get you through times of no libraries.”
+                  <br><b>― Anne Herbert </b></p></center>
+            </div>
+              </div>
+           <div class="col-lg-12">
+          <div class="container-fluid">
+              <button type="button" class="btn btn-outline-secondary m-2">Romance</button>
+              <button type="button" class="btn btn-outline-secondary m-2">Literature & fiction</button>
+              <button type="button" class="btn btn-outline-secondary m-2">BIOGRAPHIES</button>
+              <button type="button" class="btn btn-outline-secondary m-2"> BUSINESS</button>
+               <button type="button" class="btn btn-outline-secondary m-2">HEALTH,MIND & BODY</button>
+               <button type="button" class="btn btn-outline-secondary m-2">RELIGION & SPIRITUALITY</button>
+               <button type="button" class="btn btn-outline-secondary m-2">HISTORY</button>
+               <button type="button" class="btn btn-outline-secondary m-2">MISTERY & THRILLER</button>
+          </div>
+         </div>
+           </div>
+          <br>
+          <div class="row no-gutter r2">
+              <div class="col-lg-3">
+                  <div class="card" style="width:18rem;">
+                      <img src="{% static 'img/bk1.png' %}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-rupee-sign"></i> 1000/-</a>
+                           <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> add to Cart</a>
+                      </div>
+                    </div>
+              </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                      <img src="{% static 'img/bk2.png' %}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-rupee-sign"></i> 2000/-</a> 
+                      </div>
+                    </div>
+              </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                      <img src="{% static 'img/bk3.png' %}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-rupee-sign"></i> 5000/-</a> 
+                      </div>
+                    </div>
+              </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                      <img src="{% static 'img/bk4.png' %}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-rupee-sign"></i> 1000/-</a>
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+      <br><br><br>
+      <div class="container-fluid">
+          <ul class="nav justify-content-center navbar fixed-bottom navbar-light bg-light">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-shopping-cart"></i><b> Cart</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-clock"></i><b> My Orders</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user"></i> <b>Account</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-cogs"></i> <b>Settings</b></a>
+              </li>
+        </ul>
+         
+      </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+      
+       <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/popper.js' %}"></script>
+      <script src="{% static 'js/ajax.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+ 
+   
+  </body>
+</html>
