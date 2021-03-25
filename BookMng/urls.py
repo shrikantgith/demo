@@ -17,5 +17,9 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 urlpatterns = [
-    path("", views.login,name='login'),
+    path("", views.signin,name='signin'),
+    path("login",views.login,name='login'),
+    path("signin", views.signin,name="signin"),
+    path("sigsub", views.sigsub,name="sigsub"),
+    path('logsub', views.logsub,name='logsub')
 ]
